@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Chronocouche</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <main>
+      <section class="header">
+        <h1 class="title">Bienvenue sur</h1>
+        <img src="img/logo.png" class="logo" alt="logo">
+        <h2>Vos couches livrées en 1 clic !</h2>
+        <p>Choisissez votre département</p>
+      </section>
+      <section class="flex countries">
+        <a href="https://guadeloupe.chronocouches.com">
+          <img src="img/gp.png" alt="Cliquez ici pour la Guadeloupe">
+        </a>
+        <a href="https://martinique.chronocouches.com">
+          <img src="img/mq.png" alt="Cliquez ici pour la Martinique">
+        </a>
+        <a href="https://guyane.chronocouches.com">
+          <img src="img/gy.png" alt="Cliquez ici pour la Guyane">
+        </a>
+      </section>
+      <section class="flex contacts">
+        <a href="mailto:contact@chronocouches.com" class="mail" target="_blank" rel="noopener noreferrer">Contact Mail</a>
+        <a href="https://api.whatsapp.com/send?phone=596696072459" target="_blank" rel="noopener noreferrer">
+          <img src="img/wa.png" alt="Cliquez ici pour discuter avec nous sur WhatsApp">
+          <span>Discuter avec nous</span>
+        </a>
+      </section>
+    </main>
   </body>
 </html>
